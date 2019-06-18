@@ -1,0 +1,7 @@
+[package]
+name = "combinatorial"
+version = "0.1.0"
+authors = ["mrbus <mrbus@mail.ru>"]
+edition = "2018"
+
+[dependencies]
