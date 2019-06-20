@@ -34,7 +34,7 @@ impl<'a, T> Iterator for PermutationIterator<'a, T> {
     type Item = Subset<'a, T>;
     fn next(&mut self) -> Option<Self::Item> {
         unsafe {
-            Subset::new_unchecked(set: &'a Vec<T>, idxs: &'a Vec<usize>)
+            Some(Subset::new_unchecked(set: &'a Vec<T>, idxs: &'a Vec<usize>))
         }
     }
 }

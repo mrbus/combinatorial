@@ -5,4 +5,4 @@ authors = ["mrbus <mrbus@mail.ru>"]
 edition = "2018"
 
 [dependencies]
-subset = "0.1.1"
+subset = "0.2.2"
